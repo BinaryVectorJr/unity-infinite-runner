@@ -43,6 +43,7 @@ namespace UnitySampleAssets._2D
             // Set the vertical animation
             anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
             
+            // reset the double jump after land
             if(grounded)
             	doubleJump = false;
         }
